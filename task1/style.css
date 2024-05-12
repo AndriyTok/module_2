@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    margin: 100px;
+    background: #e5fffe;
+}
+
+.question{
+    margin-bottom: 20px;
+    padding:20px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+}
+
+.question label {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.question input[type="radio"],
+.question input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.question select,
+.question input[type="date"],
+.question input[type="time"],
+.question input[type="week"],
+.question input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+    font-size:30px;
+    margin:20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    transition:0.5s;
+}
+form button:hover{
+    transform:scale(1.1);
+    background: #cccccc;
+    transition:0.5s
+}
